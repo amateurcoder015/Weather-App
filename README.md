@@ -16,11 +16,12 @@ This is a fully functional, real-time **Weather Forecast App** built using **Flu
 - ✅ Clean, modern UI with Material Design
 - ✅ Dynamic AppBar date display
 - ✅ Error handling for API calls
-- ✅ Light and Dark theme support ready (can be toggled via `ThemeData`)
 
 ---
 ## 📸 Screenshots
-![simulator_screenshot_1B911E6C-4FC7-4D64-BC70-6A354987498E](https://github.com/user-attachments/assets/618910fb-2d10-4027-a8a3-76a6f82afe28)
+
+<img src="https://github.com/user-attachments/assets/618910fb-2d10-4027-a8a3-76a6f82afe28" alt="Current Weather" width="300" height="650"/>
+
 
 
 ---
@@ -35,5 +36,13 @@ This is a fully functional, real-time **Weather Forecast App** built using **Flu
 - **OpenWeatherMap API** – Real-time weather data
 
 ---
+
+### 🧠 How it Works
+- The WeatherScreen widget initializes an API call to fetch 5-day/3-hour interval forecasts.
+- It decodes and parses this data to extract:
+    -> Current weather conditions
+    -> Next 8 hourly forecasts
+- It uses FutureBuilder to build the UI only after the data is loaded.
+- Icons are chosen dynamically based on the weather condition.
 
 
