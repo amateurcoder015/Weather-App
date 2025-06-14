@@ -45,4 +45,15 @@ This is a fully functional, real-time **Weather Forecast App** built using **Flu
 - It uses FutureBuilder to build the UI only after the data is loaded.
 - Icons are chosen dynamically based on the weather condition.
 
+ ### To-Do / Improvements
+ - Add location selection for weather lookup
+
+ - Allow theme switching (dark/light toggle)
+
+ - Store user's last city using local storage
+
+ - Add unit toggle (°C ↔ °F)
+
+
+
 
